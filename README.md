@@ -37,3 +37,11 @@ This script compares the performance of computing Fibonacci numbers using:
 - Reason:
   - In a Splay Tree, the most recently accessed elements are automatically moved to the root (thanks to the splay operation). This makes access to frequently used items faster.
   - The LRU Cache also tracks access history, but it is based on a linked list structure, which may be slightly slower in some cases compared to tree-based access.
+
+![alt text](image.png)
+
+### Conclusion:
+
+- The Splay Tree demonstrates greater stability and speed for large values of n, but it is more complex to implement.
+
+- The LRU Cache is easier to use, but its execution time increases more noticeably as n grows.

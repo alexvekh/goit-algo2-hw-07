@@ -83,16 +83,16 @@ def explain(cache: LRUCache):
     print("-----------------------")
 
 
-if __name__ == "__main__":
-    cache = LRUCache(3)
-    cache.put(1, "Банан")
-    explain(cache)
-    cache.put(2, "Груша")
-    explain(cache)
-    cache.put(3, "Яблуко")
-    explain(cache)
-    print(cache.get(1))  # виведе "A"
-    explain(cache)
-    cache.put(4, "Диня")
-    explain(cache)
-    print(cache.get(2))  # виведе -1 (не знайдено)
+# if __name__ == "__main__":
+#     cache = LRUCache(3)
+#     cache.put(1, "Банан")
+#     explain(cache)
+#     cache.put(2, "Груша")
+#     explain(cache)
+#     cache.put(3, "Яблуко")
+#     explain(cache)
+#     print(cache.get(1))  # виведе "A"
+#     explain(cache)
+#     cache.put(4, "Диня")
+#     explain(cache)
+#     print(cache.get(2))  # виведе -1 (не знайдено)

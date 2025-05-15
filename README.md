@@ -24,7 +24,7 @@ This script compares the performance of computing Fibonacci numbers using:
 
         python lru_vs_splay.py         # requires splay_tree.py
 
-🧪 Execution Time Results
+🧪 Execution Time Results on fib(35)
 - Execution time with LRU cache: 0.0004 seconds
 - Execution time with Splay cache: 0.0002 seconds
 
